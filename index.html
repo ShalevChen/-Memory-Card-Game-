@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>NBA Memory Game</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body id="body">
+  <div class="container">
+    <h1>NBA Memory Game</h1>
+    <form id="start-form">
+      <label for="name">Enter your name:</label>
+      <input type="text" id="name" required>
+      <label for="cards">Number of cards (max 30 pairs):</label>
+      <input type="number" id="cards" min="2" max="30" required>
+      <button type="submit">Start Game</button>
+    </form>
+    <div id="game-board"></div>
+    <div id="timer">00:00</div>
+    <div id="result"></div>
+    <span hidden id="score"></span>
+    <button id="restart-btn" style="display: none;">Play Again</button>
+  </div>
+  <script src="scripts.js"></script>
+</body>
+</html>

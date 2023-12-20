@@ -1,0 +1,70 @@
+#body{
+    background-image: url('https://www.pixelstalk.net/wp-content/uploads/2017/03/Basketball-NBA-Wallpapers-Descktop-Backgrounds-6.jpg');
+    /* background-image: url('https://www.pixelstalk.net/wp-content/uploads/2017/03/Basketball-NBA-Wallpapers-Descktop-Backgrounds-6.jpg'); */
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    size: 20px; ;
+  }
+  
+  h1 {
+    margin-top: 10;
+  }
+  
+  form {
+    margin-bottom: 20px;
+  }
+  
+  #game-board {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .card {
+    width: 100px;
+    height: 100px;
+    background-color: #eaeaea;
+    margin: 5px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    color: #333;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .card.flipped {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  #timer {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  #result {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  #restart-btn {
+    font-size: 18px;
+    margin: auto;
+    
+  }
+  
+  .card-image {
+    width: 100px; /* Adjust the width to your desired size */
+    height: 100px; /* Adjust the height to your desired size */
+    object-fit:fill; /* Preserve aspect ratio and cover the container */
+  }
